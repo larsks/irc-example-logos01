@@ -1,0 +1,75 @@
+{
+
+"shell110_online1": {
+"Server": "shell110_online1",
+"Server_Number": "111",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.shell110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+},
+"110_online1": {
+"Server": "110_online1",
+"Server_Number": "110",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+},
+"imperial110_online1": {
+"Server": "imperial110_online1",
+"Server_Number": "113",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.imperial110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+},
+"irving110_online1": {
+"Server": "irving110_online1",
+"Server_Number": "112",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.irving110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+},
+"driveline110_online1": {
+"Server": "driveline110_online1",
+"Server_Number": "114",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.driveline110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+},
+"mig110_online1": {
+"Server": "mig110_online1",
+"Server_Number": "115",
+"Server_Type": "IDS",
+"Server_Status": "Up",
+"Server_Version": "IBM Informix Dynamic Server_Version 12.10.FC5XJ",
+"Shared_Memory": "0x44000000",
+"INFORMIXDIR": "/informix/product/12.10.FC5XJ",
+"ONCONFIG": "/informix/product/12.10.FC5XJ/etc/onconfig.mig110",
+"SQLHOSTS": "/informix/product/12.10.FC5XJ/etc/sqlhosts",
+"Host": "infxdev.domain.tld"
+}
+}

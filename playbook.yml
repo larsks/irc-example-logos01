@@ -1,7 +1,9 @@
 - hosts: localhost
   tasks:
-    - lsblk:
-      register: devices
-    - debug: 
-        msg: "device: {{item.name}}"
-      with_items: devices['blockdevices']
+    - command: cat {{myfile}}
+      register: myfile_out
+    - debug: msg="{{myfile_out.stdout}}"
+    - set_fact:
+        myfile_json: "{{myfile_out.stdout|from_json}}"
+    - debug: msg="{{item.key}}"
+      with_dict: myfile_json
