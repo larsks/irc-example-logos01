@@ -1,3 +1,5 @@
 #!/bin/sh
 
-exec lsblk -J
+lsblk -J |
+sed 's/^{/{ "changed": true,/'
+

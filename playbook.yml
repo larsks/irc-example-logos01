@@ -2,4 +2,6 @@
   tasks:
     - lsblk:
       register: devices
-    - debug: msg="{{devices}}"
+    - debug: 
+        msg: "device: {{item.name}}"
+      with_items: devices['blockdevices']
