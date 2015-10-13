@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+    - lsblk:
+      register: devices
+    - debug: msg="{{devices}}"
